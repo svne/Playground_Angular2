@@ -1,0 +1,8 @@
+"beautify.onSave": ["js","css"], // only beautify those that match the js and css beautifiers
+
+"beautify.onSaveIgnore": [
+    // don't beautify any file in any 'minified' directory, at any depth:
+    "**/minified/**",
+    // don't minify any file that contains '.min.', '_min.', '-min.' in the filename (This is the default ignore setting):
+    "**/*+(.|_|-)min.*",
+  ]
